@@ -1,2 +1,5 @@
 gql[requests]
 python-dotenv
+pydantic
+click
+pandas

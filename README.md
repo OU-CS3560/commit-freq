@@ -45,3 +45,12 @@ Average
 4. For each user id in the team, get commit on main branch that are within the milestone
 5. (todo) Filter out some types of commits (e.g. merge commit, commit that add PPTX file, or PDF file).
 5. Use rich's UI to create table where row is date itemize of the dates in a milestone. Columns are the name of the member.
+
+## Data Conversion
+
+Flatten for `pd.DataFrame`
+
+```plain
+- committedDate
+- author.user.login
+```
